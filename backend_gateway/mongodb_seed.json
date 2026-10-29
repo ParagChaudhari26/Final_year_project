@@ -1,0 +1,94 @@
+{
+  "users": [
+    {
+      "userId": "USR_OMKAR_01",
+      "name": "Omkar Andhare",
+      "email": "omkar.andhare@i2it.edu.in",
+      "profilePicUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Omkar",
+      "profile": {
+        "age": 22, "gender": "Male", "heightCm": 175, "weightKg": 72,
+        "activityLevel": "Moderate",
+        "dietType": "Vegetarian",
+        "allergies": ["Seafood", "Tree Nuts"],
+        "healthConditions": ["HC_DIGESTION"],
+        "applyAyurvedicConstraints": true,
+        "viruddhaStrictMode": "FILTER",
+        "preferredCuisines": ["Maharashtrian", "Punjabi", "Pan-Indian"],
+        "macroTargets": { "calories": 2000, "protein": 110, "carbs": 240, "fat": 65 }
+      },
+      "progress": {
+        "points": 450, "level": 3,
+        "currentStreak": 5, "longestStreak": 12,
+        "badges": [
+          {"id":"BADGE_FIRST_SCAN","name":"First Scan","icon":"camera","earnedAt":"2024-10-01"},
+          {"id":"BADGE_WEEK_STREAK","name":"7-Day Streak","icon":"fire","earnedAt":"2024-10-08"}
+        ],
+        "mealsLogged": 28,
+        "recipesCooked": 12
+      },
+      "weeklyGoals": {
+        "proteinG": 770, "caloriesKcal": 14000,
+        "vegetablesServings": 21, "waterGlasses": 56
+      }
+    },
+    {
+      "userId": "USR_PRIYA_02",
+      "name": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "profilePicUrl": "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya",
+      "profile": {
+        "age": 28, "gender": "Female", "heightCm": 162, "weightKg": 58,
+        "activityLevel": "Active",
+        "dietType": "Vegan",
+        "allergies": ["Dairy", "Gluten"],
+        "healthConditions": ["HC_ANEMIA", "HC_DIABETES"],
+        "applyAyurvedicConstraints": true,
+        "viruddhaStrictMode": "WARN",
+        "preferredCuisines": ["South Indian", "Gujarati", "Maharashtrian"],
+        "macroTargets": { "calories": 1800, "protein": 90, "carbs": 200, "fat": 55 }
+      },
+      "progress": {
+        "points": 870, "level": 5,
+        "currentStreak": 14, "longestStreak": 21,
+        "badges": [
+          {"id":"BADGE_ANEMIA_HERO","name":"Iron Warrior","icon":"shield","earnedAt":"2024-09-15"},
+          {"id":"BADGE_21_STREAK","name":"3-Week Streak","icon":"medal","earnedAt":"2024-10-05"},
+          {"id":"BADGE_VEGAN_MASTER","name":"Vegan Master","icon":"leaf","earnedAt":"2024-09-20"}
+        ],
+        "mealsLogged": 64,
+        "recipesCooked": 31
+      },
+      "weeklyGoals": {
+        "proteinG": 630, "caloriesKcal": 12600,
+        "vegetablesServings": 28, "waterGlasses": 63
+      }
+    }
+  ],
+  "pantry_items": [
+    {"itemId":"PNT_01","userId":"USR_OMKAR_01","ingredientId":"ING_SPINACH","name":"Spinach","quantity":250,"unit":"g","daysUntilExpiry":1,"category":"Leafy Vegetables"},
+    {"itemId":"PNT_02","userId":"USR_OMKAR_01","ingredientId":"ING_PANEER","name":"Paneer","quantity":200,"unit":"g","daysUntilExpiry":2,"category":"Dairy"},
+    {"itemId":"PNT_03","userId":"USR_OMKAR_01","ingredientId":"ING_MILK","name":"Milk","quantity":500,"unit":"ml","daysUntilExpiry":3,"category":"Dairy"},
+    {"itemId":"PNT_04","userId":"USR_OMKAR_01","ingredientId":"ING_TOMATO","name":"Tomato","quantity":400,"unit":"g","daysUntilExpiry":4,"category":"Vegetables"},
+    {"itemId":"PNT_05","userId":"USR_OMKAR_01","ingredientId":"ING_ONION","name":"Onion","quantity":500,"unit":"g","daysUntilExpiry":14,"category":"Vegetables"},
+    {"itemId":"PNT_06","userId":"USR_OMKAR_01","ingredientId":"ING_GARLIC","name":"Garlic","quantity":100,"unit":"g","daysUntilExpiry":30,"category":"Spices"},
+    {"itemId":"PNT_07","userId":"USR_OMKAR_01","ingredientId":"ING_TOOR_DAL","name":"Toor Dal","quantity":500,"unit":"g","daysUntilExpiry":180,"category":"Pulses"},
+    {"itemId":"PNT_08","userId":"USR_OMKAR_01","ingredientId":"ING_RICE","name":"Basmati Rice","quantity":1000,"unit":"g","daysUntilExpiry":365,"category":"Cereals"},
+    {"itemId":"PNT_09","userId":"USR_OMKAR_01","ingredientId":"ING_GHEE","name":"Ghee","quantity":200,"unit":"g","daysUntilExpiry":90,"category":"Fats and Oils"},
+    {"itemId":"PNT_10","userId":"USR_OMKAR_01","ingredientId":"ING_POTATO","name":"Potato","quantity":600,"unit":"g","daysUntilExpiry":7,"category":"Vegetables"},
+
+    {"itemId":"PNT_21","userId":"USR_PRIYA_02","ingredientId":"ING_MASOOR","name":"Red Lentils","quantity":400,"unit":"g","daysUntilExpiry":180,"category":"Pulses"},
+    {"itemId":"PNT_22","userId":"USR_PRIYA_02","ingredientId":"ING_JOWAR","name":"Jowar Flour","quantity":500,"unit":"g","daysUntilExpiry":90,"category":"Cereals"},
+    {"itemId":"PNT_23","userId":"USR_PRIYA_02","ingredientId":"ING_CHICKPEA","name":"Chickpeas","quantity":300,"unit":"g","daysUntilExpiry":365,"category":"Pulses"},
+    {"itemId":"PNT_24","userId":"USR_PRIYA_02","ingredientId":"ING_SPINACH","name":"Spinach","quantity":200,"unit":"g","daysUntilExpiry":2,"category":"Leafy Vegetables"},
+    {"itemId":"PNT_25","userId":"USR_PRIYA_02","ingredientId":"ING_TOMATO","name":"Tomato","quantity":300,"unit":"g","daysUntilExpiry":3,"category":"Vegetables"},
+    {"itemId":"PNT_26","userId":"USR_PRIYA_02","ingredientId":"ING_EGGPLANT","name":"Eggplant","quantity":400,"unit":"g","daysUntilExpiry":2,"category":"Vegetables"},
+    {"itemId":"PNT_27","userId":"USR_PRIYA_02","ingredientId":"ING_METHI","name":"Fenugreek Leaves","quantity":150,"unit":"g","daysUntilExpiry":1,"category":"Leafy Vegetables"},
+    {"itemId":"PNT_28","userId":"USR_PRIYA_02","ingredientId":"ING_TAMARIND","name":"Tamarind","quantity":100,"unit":"g","daysUntilExpiry":180,"category":"Fruits"}
+  ],
+  "gamification_events": [
+    {"eventId":"EVT_001","userId":"USR_OMKAR_01","type":"MEAL_LOGGED","points":10,"timestamp":"2024-10-25T12:00:00Z","description":"Logged Palak Paneer for lunch"},
+    {"eventId":"EVT_002","userId":"USR_OMKAR_01","type":"PANTRY_SCAN","points":5,"timestamp":"2024-10-25T09:00:00Z","description":"Scanned pantry items"},
+    {"eventId":"EVT_003","userId":"USR_PRIYA_02","type":"RECIPE_COOKED","points":20,"timestamp":"2024-10-25T19:00:00Z","description":"Cooked Sambar"},
+    {"eventId":"EVT_004","userId":"USR_PRIYA_02","type":"STREAK_MILESTONE","points":50,"timestamp":"2024-10-24T00:00:00Z","description":"Reached 14-day streak"}
+  ]
+}
